@@ -1,0 +1,2 @@
+# Anvisa automation
+The anvisa.py program is responsable for obtaining all tables using all possible filters from https://consultas.anvisa.gov.br/#/filas/ and https://consultas.anvisa.gov.br/#/listas/ and creates an CSV file with this data.
