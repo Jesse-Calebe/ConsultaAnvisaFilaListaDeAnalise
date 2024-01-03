@@ -11,6 +11,7 @@ class Anvisa:
     URL = str('https://consultas.anvisa.gov.br/api/fila')
     HEADER = {'Authorization': 'Guest'}
 
+    # Methods
     def getFromEndpoint(self, endpoint):
         time.sleep(Anvisa.WAIT_TIME)
 
