@@ -6,6 +6,7 @@ import os
 
 
 class Anvisa:
+    # Constants
     WAIT_TIME = float(0.4)
     URL = str('https://consultas.anvisa.gov.br/api/fila')
     HEADER = {'Authorization': 'Guest'}
